@@ -37,6 +37,21 @@ app.post('/auth', (req, res) => {
     res.json({ token });
 } );
 
+app.get('*', (req, res) => {
+    res.status(404).send('Not Found');
+});
+
+app.post('*', (req, res) => {
+    res.status(404).send('Not Found');
+});
+
+app.delete('*', (req, res) => {
+    res.status(404).send('Not Found');
+});
+
+app.put('*', (req, res) => {
+    res.status(404).send('Not Found');
+}); 
 
 // Start the server
 app.listen(PORT, () => {
