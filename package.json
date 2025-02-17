@@ -14,8 +14,7 @@
     "node-rsa": "^1.0.0"
   },
   "devDependencies": {
-    "eslint": "^7.32.0",
-    "jest": "^27.0.6"
+    "eslint": "^7.32.0"
   },
   "keywords": [
     "jwks",
